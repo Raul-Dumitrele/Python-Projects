@@ -1,0 +1,8 @@
+from gtts import gTTS
+import os
+
+file=open("text.txt","r").read()
+
+speech=gTTS(text=file,lang='ro',slow=False)
+speech.save("voice.mp3")
+os.system("voice.mp3")
