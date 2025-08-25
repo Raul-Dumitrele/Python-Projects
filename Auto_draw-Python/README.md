@@ -31,7 +31,7 @@ It’s a practical example of *“Automate the Boring Stuff with Python”* appl
 
 ---
 
-##⚠️ Important:
+⚠️ Important:
 
 PyAutoGUI will automatically move your cursor.
 
