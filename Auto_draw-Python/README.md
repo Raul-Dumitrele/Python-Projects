@@ -5,17 +5,6 @@ It’s a simple but powerful example of how Python can control the keyboard and 
 
 ---
 
-## 📌 Table of Contents
-- [Overview](#-overview)
-- [How it Works](#-how-it-works)
-- [Requirements](#-requirements)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Code Explanation](#-code-explanation)
-- [Author](#-author)
-
----
-
 ## 🖌️ Overview
 This script demonstrates how you can use **automation** to:
 - Launch Windows applications from Python.
@@ -38,7 +27,15 @@ It’s a practical example of *“Automate the Boring Stuff with Python”* appl
 ## 📦 Requirements
 - Python 3.7+
 - Python libraries:
-  - `pyautogui`
+  - `pyautogui`       (pip install pyautogui)
+
+---
+
+##⚠️ Important:
+
+PyAutoGUI will automatically move your cursor.
+
+To stop the script immediately, move your cursor quickly to the top-left corner of the screen (PyAutoGUI’s FAILSAFE feature).
 
 ---
 
@@ -46,42 +43,4 @@ It’s a practical example of *“Automate the Boring Stuff with Python”* appl
 Clone the repository:
 ```bash
 git clone https://github.com/username/pyautogui-paint-spiral.git
-cd pyautogui-paint-spiral
-  
-  
-  🔧 Install dependencies:
-```bash
-pip install pyautogui
-
-  ⚠️ Important:
-
-PyAutoGUI will automatically move your cursor.
-
-To stop the script immediately, move your cursor quickly to the top-left corner of the screen (PyAutoGUI’s FAILSAFE feature).
-
-![alt text](image.png)
-    
-    
-    
-    📜 Code Explanation
-
-subprocess.Popen(["mspaint"]) → launches MS Paint.
-
-pyautogui.hotkey("alt","space"); pyautogui.press("x") → maximizes the active window.
-
-pyautogui.size() → gets the screen dimensions.
-
-pyautogui.click(center_x, center_y) → positions the cursor in the middle of the screen.
-
-The while distance > 0 loop → draws the spiral step by step (right, down, left, up) with decreasing distance.
-
-
-
-
-
-
-
-
-
-
-
+cd pyautogui-paint-spiral  
