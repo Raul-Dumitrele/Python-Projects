@@ -16,4 +16,4 @@ When executed the text from text.txt will be turned into an mp3, saved and then 
 
 ## *Author Name*
 <!--Remove the below lines and add yours -->
-[Raul-Victor Dumitrele](https://github.com/Raul-Dumitrele)
+[Raul Dumitrele](https://github.com/Raul-Dumitrele)
