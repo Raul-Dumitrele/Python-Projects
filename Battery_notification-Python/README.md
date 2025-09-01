@@ -19,4 +19,4 @@ You will need to install python on your machine.
     python battery.py
 
 ## Authon Name:
-Dumitrele Raul-Victor
+[Raul Dumitrele](https://github.com/Raul-Dumitrele)
