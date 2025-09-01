@@ -44,3 +44,6 @@ Clone the repository:
 ```bash
 git clone https://github.com/username/pyautogui-paint-spiral.git
 cd pyautogui-paint-spiral  
+```
+## Authon Name:
+[Raul Dumitrele](https://github.com/Raul-Dumitrele)
