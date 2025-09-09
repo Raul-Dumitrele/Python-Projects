@@ -63,26 +63,5 @@ Navigate to the project folder and run the Python scripts:
 ```bash
 python script_name.py
 ```
-
----
-
-## 🔹 Portfolio & Career Focus
-
-This repository demonstrates:
-
-- Rapid prototyping and development of practical Python solutions.
-- Strong grasp of Python libraries and ecosystem for real-world tasks.
-- Ability to write clean, maintainable, and reusable code.
-- Readiness for internships, junior developer roles, or automation and scripting challenges.
-
----
-
-## 🔹 Contributions
-
-Contributions are welcome! Fork the repository, add projects, or improve existing scripts, then submit a pull request.
-
----
-
-## 🔹 License
-
-This repository is available under the **MIT License**.
+## Authon Name:
+[Raul Dumitrele](https://github.com/Raul-Dumitrele)
