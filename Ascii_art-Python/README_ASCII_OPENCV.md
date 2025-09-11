@@ -34,7 +34,7 @@ pip install opencv-python numpy
 2. Run the script from the terminal:
 
 ```bash
-python ascii_opencv.py my_image.png
+python Ascii_art-Python.py my_image.png
 ```
 
 If no image path is provided, the script will use **sample_image.png** by default.
