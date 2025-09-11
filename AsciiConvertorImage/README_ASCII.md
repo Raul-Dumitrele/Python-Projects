@@ -37,7 +37,7 @@ pip install pillow
 2. Run the program:
 
 ```bash
-python ascii_converter.py
+python AsciiConvertorImage.py
 ```
 
 3. Adjust the parameters in the `asciiConvert()` call at the bottom of the file:
@@ -52,18 +52,6 @@ asciiConvert("my_image.png", "png", "output.txt", "3")
 - **"3"** → scale factor (higher = smaller image = less detail)
 
 4. Open the generated text file to see the ASCII art.
-
----
-
-## 🔹 Example
-
-Input:
-
-📷 `x5.png`
-
-Output:
-
-📄 `x5.txt` (ASCII art generated)
 
 ---
 
