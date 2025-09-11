@@ -34,7 +34,7 @@ pip install tk
 2. Run the program:
 
 ```bash
-python alarm_clock.py
+python AlarmClock-Python.py
 ```
 
 3. Select the hour, minute, and second from the dropdown menus.
