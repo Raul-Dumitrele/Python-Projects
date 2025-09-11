@@ -17,7 +17,7 @@ and saves the **first 10 links** into a text file.
 
 ## 🔹 Requirements
 
-- Python 3.6 or newer  
+- Python 3.6 or newer
 - Install the dependencies with:
 
 ```bash
@@ -32,10 +32,10 @@ pip install requests beautifulsoup4
 2. Run the script:
 
 ```bash
-python main.py
+python All_links_from_given_webpage-Python.py
 ```
 
-3. Enter a website link when prompted (`openai.com` or `https://openai.com`).
+3. Enter a website link when prompted.
 4. Check the file `MyLinks.txt` to see the first 10 extracted links.
 
 ---
