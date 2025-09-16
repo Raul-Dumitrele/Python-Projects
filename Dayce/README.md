@@ -49,13 +49,3 @@ Score if you get 1 is: 0
 The winner is player 2 with a score of: 52
 ```
 
-## 📂 File Structure
-
-```
-dice_game.py
-README.md
-```
-
-## 📜 License
-
-This project is free to use and modify.
