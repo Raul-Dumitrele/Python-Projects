@@ -13,8 +13,8 @@
 ### 1️⃣ Clone the project
 
 ```bash
-git clone https://github.com/USER/Split-Media-File.git
-cd Split-Media-File
+git clone https://github.com/Raul Dumitrele/SplitFile-Python.git
+cd SplitFile-Python
 ```
 
 ### 2️⃣ Install requirements
@@ -53,7 +53,7 @@ python split_media.py input.mp4 5 10 part1.mp4 part2.mp4
 Example:  
 
 ```bash
-python split_media.py video.mp4 5 10 clip1.mp4 clip2.mp4
+python SplitFile-Python.py video.mp4 5 10 clip1.mp4 clip2.mp4
 ```
 
 This will cut `video.mp4` into:
@@ -66,7 +66,7 @@ This will cut `video.mp4` into:
 
 ```
 Split-Media-File/
-├── split_media.py   # Main script
+├── SplitFile-Python.py   # Main script
 └── README.md        # This file
 ```
 
