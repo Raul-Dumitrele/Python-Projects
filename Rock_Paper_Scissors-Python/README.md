@@ -13,14 +13,14 @@
 ### 1️⃣ Clone the project
 
 ```bash
-git clone https://github.com/USER/Rock-Paper-Scissors.git
-cd Rock-Paper-Scissors
+git clone https://github.com/Raul-Dumitrele/Python-Project.git
+cd Python-Project/Rock_Paper_Scissors-Python
 ```
 
 ### 2️⃣ Run the game
 
 ```bash
-python rps.py
+python Rock_Paper_Scissors-Python.py
 ```
 
 ### 3️⃣ Instructions
@@ -50,7 +50,7 @@ python rps.py
 
 ```
 Rock-Paper-Scissors/
-├── rps.py        # Main script
+├── Rock_Paper_Scissors-Python.py        # Main script
 └── README.md     # This file
 ```
 
