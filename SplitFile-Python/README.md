@@ -1,61 +1,77 @@
-# SplitFile-Python
+# 🎬 Split Media File with FFmpeg
 
-A small Python script that splits a media file (video/audio) into two pieces, using [ffmpeg-python](https://github.com/kkroening/ffmpeg-python).
+![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
+![Status](https://img.shields.io/badge/status-stable-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
-## Requirements
-
-- Python 3.8+
-- [`ffmpeg-python`](https://pypi.org/project/ffmpeg-python/) library
-- **FFmpeg** program installed and added to `PATH`
-- [Download Windows builds](https://www.gyan.dev/ffmpeg/builds/)
-- After installation, verify by running in Command Prompt:
-  ```sh
-  ffmpeg -version
-  ```
-
-## Installation
-
-Clone or download the project, then install the dependency:
-
-```sh
-pip install ffmpeg-python
-```
-
-Make sure you also have `ffmpeg` installed (not just the Python wrapper).
-
-## Usage
-
-Running the script:
-
-```sh
-python SplitFile-Python.py <inputfile> <starttime> <endtime> <outputfile1> <outputfile2>
-```
-
-### Arguments:
-
-- `inputfile` → source file (ex: `video.mp4`)
-- `starttime` → start time of the first piece (in seconds)
-- `endtime` → end time of the first piece (in seconds) and start of the second
-- `outputfile1` → file for the first piece
-- `outputfile2` → file for the second piece
-
-### Example:
-
-```sh
-python SplitFile-Python.py video.mp4 5 10 part1.mp4 part2.mp4
-```
-
-- `part1.mp4` → contains the part between seconds 5 and 10
-- `part2.mp4` → contains the rest, from second 10 to the end
-
-## Notes
-
-- The script works on any media file supported by FFmpeg.
-- The time (`starttime`, `endtime`) is given in seconds (you can also use decimal values, e.g. `5.5`).
-- If you get the error `[WinError 2]`, it means that `ffmpeg.exe` is not in PATH`.
+> A simple Python script that splits a media file into **two parts** using FFmpeg.  
 
 ---
 
-## Authon Name:
+## 🚀 How to Use
+
+### 1️⃣ Clone the project
+
+```bash
+git clone https://github.com/USER/Split-Media-File.git
+cd Split-Media-File
+```
+
+### 2️⃣ Install requirements
+
+```bash
+pip install ffmpeg-python
+```
+
+⚠️ You also need **FFmpeg** installed on your system.  
+[Download FFmpeg](https://ffmpeg.org/download.html)
+
+### 3️⃣ Run the script
+
+```bash
+python split_media.py input.mp4 5 10 part1.mp4 part2.mp4
+```
+
+### 4️⃣ Arguments
+
+- `inputfile` → the media file you want to split  
+- `starttime` → start time (in seconds) for the first part  
+- `endtime` → end time of the first part / start time of the second part  
+- `outputfile1` → output file for the first part  
+- `outputfile2` → output file for the second part  
+
+---
+
+## 🏗️ How it Works
+
+- Reads arguments from the command line with **argparse**.
+- Uses **ffmpeg-python** to create two video/audio streams:
+  - First stream: from `starttime` to `endtime`.
+  - Second stream: from `endtime` to the end of the file.
+- Saves the two streams into separate output files.  
+
+Example:  
+
+```bash
+python split_media.py video.mp4 5 10 clip1.mp4 clip2.mp4
+```
+
+This will cut `video.mp4` into:
+- `clip1.mp4` → from 5s to 10s  
+- `clip2.mp4` → from 10s to the end  
+
+---
+
+## 📂 Project Structure
+
+```
+Split-Media-File/
+├── split_media.py   # Main script
+└── README.md        # This file
+```
+
+---
+
+## ✍️ Author
 
 [Raul Dumitrele](https://github.com/Raul-Dumitrele)
