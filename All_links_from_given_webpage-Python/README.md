@@ -1,4 +1,10 @@
-# 🌐 Web Link Extractor (Python + BeautifulSoup)
+# 🌐 All_links_from_given_webpage-Python
+
+![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
+![Status](https://img.shields.io/badge/status-stable-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+> A Python script that extracts all links from a given webpage.
 
 This is a simple **Python script** that extracts all hyperlinks (`<a href="...">`) from a given web page  
 and saves the **first 10 links** into a text file.
