@@ -1,5 +1,9 @@
 # 🎨 Image to ASCII Converter (Python + OpenCV)
 
+![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
+![Status](https://img.shields.io/badge/status-stable-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 This is a **Python script** that converts an image into ASCII art using **OpenCV** and **NumPy**.  
 It resizes the image, applies thresholding, maps brightness ranges to ASCII symbols, and prints the ASCII art directly to the terminal.
 
