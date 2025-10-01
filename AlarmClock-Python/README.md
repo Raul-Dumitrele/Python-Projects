@@ -48,4 +48,4 @@ AlarmClock-Python/
 
 ## ✍️ Author
 
-[Raul Dumitrele](https://github.com/Raul-Dumitrele)a
+[Raul Dumitrele](https://github.com/Raul-Dumitrele)
