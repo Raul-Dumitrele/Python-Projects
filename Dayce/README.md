@@ -1,5 +1,9 @@
 # Dice Game 🎲
 
+![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
+![Status](https://img.shields.io/badge/status-stable-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 A simple dice game where players compete to reach **50 points** or more.  
 The game is turn-based, and each player rolls the dice trying to accumulate points.  
 If a player rolls a **1**, their current turn score is reset, and the turn passes to the next player.
