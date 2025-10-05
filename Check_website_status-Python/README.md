@@ -1,5 +1,9 @@
 # 🌐 Website Status Checker (Python Project)
 
+![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
+![Status](https://img.shields.io/badge/status-stable-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue
+
 This is a simple **Python script** that checks whether websites listed
 in a text file are **working or not**.\
 The script sends HTTP requests to each website and saves the results in
