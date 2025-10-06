@@ -1,6 +1,11 @@
 
 # 🔋 Low Battery Notifier (Python)
 
+
+![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
+![Status](https://img.shields.io/badge/status-stable-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 This is a **simple Python script** that checks your laptop's battery percentage and notifies you if it drops below a certain threshold (30% by default).  
 It is especially useful to avoid sudden shutdowns when running on battery.
 
