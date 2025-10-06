@@ -1,5 +1,9 @@
 # Python String Prefix Example
 
+![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
+![Status](https://img.shields.io/badge/status-stable-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 This project demonstrates the difference between `lstrip()` and `removeprefix()` when working with strings that have a common prefix like `www.`.
 
 ## Code Example
