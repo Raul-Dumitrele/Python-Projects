@@ -4,6 +4,8 @@
 ![Status](https://img.shields.io/badge/status-stable-success)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
+---
+
 > A simple Python script to set alarms and reminders.
 
 ---
